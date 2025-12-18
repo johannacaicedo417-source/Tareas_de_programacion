@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Preview — Fondo Celeste Agua</title>
+  <style>
+    :root{ --agua:#bfefff; }
+    html,body{height:100%;margin:0;}
+    body{
+      background: linear-gradient(var(--agua), #dff8ff);
+      display:flex;align-items:center;justify-content:center;
+      font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      padding:24px;
+    }
+    .card{
+      background: rgba(255,255,255,0.6);
+      padding:20px;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.08);
+      max-width:560px;width:100%;
+    }
+    img{ display:block;width:100%;height:auto;border-radius:8px; }
+    .note{margin-top:10px;color:#024; font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="ruta-de-la-imagen.png" alt="Captura" />
+    <div class="note">Coloca tu imagen en la misma carpeta y cambia <strong>ruta-de-la-imagen.png</strong> por su nombre.</div>
+  </div>
+</body>
+</html>
